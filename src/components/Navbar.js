@@ -38,8 +38,8 @@ const Wrapper = styled.nav`
   gap: 1.5rem;
 
   h4 {
-    margin-bottom: 0;
     font-weight: 400;
+    text-align: center;
   }
   img {
     width: 35px !important;
@@ -48,13 +48,18 @@ const Wrapper = styled.nav`
     object-fit: cover;
   }
   button {
-    background: transparent;
-    border: transparent;
-    font-size: 1.2rem;
-    text-transform: capitalize;
+    color: #fff;
+    background-color: #2ec4b6;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bolder;
     letter-spacing: 2px;
-    color: gray;
-    cursor: pointer;
+  }
+  button:hover {
+    background-color: #cbf3f0;
+    color: #2ec4b6;
+    transition: all 300ms linear;
   }
 `;
 export default Navbar;

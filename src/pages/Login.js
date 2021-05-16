@@ -12,7 +12,7 @@ const Login = () => {
         <img src={loginImage} alt="github user" />
         <h1>github user</h1>
         <button className="btn" onClick={loginWithRedirect}>
-          Log In
+          Log In /Sign up
         </button>
       </div>
     </Wrapper>
@@ -38,12 +38,14 @@ const Wrapper = styled.section`
       letter-spacing: 2px;
     }
     .btn {
-      color: #00b4d8;
+      color: #fff;
       font-weight: bolder;
       font-size: 20px;
-      border-color: #00b4d8;
+      border: 1px solid #00b4d8;
       border-radius: 4px;
       outline: none;
+      background-color: #00b4d8;
+      padding: 0.5rem 1rem;
     }
   }
 `;
